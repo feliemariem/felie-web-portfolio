@@ -1,0 +1,132 @@
+/* header background color */
+header {
+  background-color:  #0A0A0A;
+}
+
+/* header image (logo) position */
+h1 {
+  padding: 20px 40px 0;
+  margin: auto;
+  float: left;
+}
+
+/* navigation container - 'about' | 'contact', size and position */
+nav {
+  border: 1px solid #0A0A0A;
+  padding: 10px;
+  margin: 40px 30px;
+  width: 30%;
+  float: right;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* keeping nav inside header */
+header:after, 
+nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}  
+
+/* intro with image position */
+div h2 {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  margin-top: -60px;
+}
+
+/* intro image shape */
+.image-circle {
+  border-radius: 50%;
+}
+
+/* intro paragraph: font size and position */
+main h3 {
+  font-size: 48px;
+  font-family: Verdana, sans-serif; 
+  text-align: center;
+  padding: 150px 450px 0;
+}
+
+/* second part of intro paragraph: size and position */
+main h4 {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif, sans-serif;
+  text-align: right;
+  padding: 0 500px 0;
+  margin-top: 100px;
+}
+
+/* article headings: size and position */
+main article h2 {
+  text-align: left;
+  font-size: 32px;
+  padding: 50px 100px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3C2218;
+}
+
+/* section headings: size and position */
+section h3 {
+  text-align: justify;
+  font-size: 28px;
+  padding: 40px 0 0;
+}
+
+/* paragraph inside articles/sections: font size */
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+/* font-size of lists */
+ul, ol {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+
+/* div containers for article/sections: size, position, background color */
+div article {
+  text-align: left;
+  padding: 30px 40px 60px;
+  font-size: 32px;
+  border: 2px solid #ffffff;
+  width: 55%;
+  height: auto;
+  margin: 80px 400px 80px;
+  background-color: #f4f4f8;
+}
+
+/* shortened horizontal line between 2 div containers */
+hr {
+  width: 70%;
+}
+
+/* anchor links: font and size */
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+/* anchor links color changes */
+a:link    { color: #866246;  }
+a:visited { color: #9D581F;   }
+a:hover   { color: #3C2218; }
+a:active  { color: #E6D6C8;  }
+
+/* footer size and background color */
+footer {
+  text-align: center;
+  background-color: #000000;
+  margin: 100px 0 0 0;
+  padding: 10px 0;
+}
+
+/* footer text/information font color */
+footer p {
+  color: #ffffff;
+}
